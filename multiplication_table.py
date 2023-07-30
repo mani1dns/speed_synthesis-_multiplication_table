@@ -23,4 +23,6 @@ for i in range(1,11):
     # two nines are eighteen
     mul = i * int(n)
     txt += str(i) + " " + dic[n] + " are " + str(mul) + "\n"
-print(txt)
+engine = pyttsx3.init()
+engine.say(txt)
+engine.runAndWait()
