@@ -1,4 +1,5 @@
 import pyttsx3
+engine = pyttsx3.init()
 
 print("-----Speed Synthesis Multiplication Table-----")
 n = input("Enter a number: ")
